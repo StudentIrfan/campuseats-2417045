@@ -6,7 +6,7 @@
         "openHours": "10:00 am - 10:00 pm",
         "isOpen": true,
         "menu": [
-            { "id": "2417045-m1", "name": "Jumbo Tenders Set", "description": "Large chicken tenders served with selected side meal, fries, and sauce", "price": 35.90, "category": "Tenders", "available": true },
+            { "id": "2417045-m1", "name": "Jumbo Tenders Set", "description": "Large chicken tenders served with selected side meal, fries, and sauce", "price": 35.90, "category": "Tenders", "available": true, "special":true },
             { "id": "2417045-m2", "name": "Hot Bird Fried Chicken", "description": "Three pieces of crispy fried chicken with a special sauce", "price": 33.90, "category": "Chickens", "available": true },
             { "id": "2417045-m3", "name": "Hot Bird Burger Meal", "description": "A delicious burger with a special sauce, served with fries", "price": 23.90, "category": "Burgers", "available": true },
             { "id": "2417045-m4", "name": "Large Cajun Fries", "description": "Large portion of Cajun-style fries with special peppers", "price": 10, "category": "Sides", "available": true },
@@ -16,7 +16,7 @@
         ],
         "dailySpecial": {
             "itemId": "2417045-m2",
-            "endTime": "23:59"
+            "endTime": "22:29"
         }
     },
     {
@@ -56,7 +56,8 @@
                 "description": "Nasi, ayam gepuk saiz besar, telur dadar, tempe, tauhu, kubis goreng, sup.",
                 "price": 18.00,
                 "category": "Sets",
-                "available": true
+                "available": true,
+                "special": true
             },
             {
                 "id": "2418497-m5-add-nasi",
@@ -90,7 +91,11 @@
                 "category": "Drinks",
                 "available": true
             }
-        ]
+        ],
+        "dailySpecial": {
+            "itemId": "2418497-m4-set-t20",
+            "endTime": "19:59"
+        }
     },
     {
         "id": "2416229-woodfire",
@@ -105,7 +110,8 @@
                 "description": "Smoked beef brisket, beef patty, cheese, pickles, and Woodfire sauce.",
                 "price": 38.90,
                 "category": "Burgers",
-                "available": true
+                "available": true,
+                "special": true
             },
             {
                 "id": "2416229-m2-smoked-beef",
@@ -163,17 +169,32 @@
                 "category": "Drinks",
                 "available": true
             }
-        ]
+        ],
+        "dailySpecial": {
+            "itemId": "2416229-m1-brisket-burger",
+            "endTime": "21:59"
+        }
     },
     {
-        "id": "kafe-aminah",
-        "name": "Kafe Mahallah Aminah",
-        "location": "Mahallah Aminah, Ground Floor",
-        "openHours": "8:00 am - 9:00 pm",
+        "id": "2412833-mcdonalds",
+        "name": "McDonald's",
+        "location": "Petronas Taman Melati",
+        "openHours": "7:00 am - 11:00 pm",
         "isOpen": true,
         "menu": [
-            { "id": "ami-1", "name": "Nasi Ayam Penyet", "description": "Smashed fried chicken with sambal and rice", "price": 9, "category": "Rice", "available": true },
-            { "id": "ami-2", "name": "Air Bandung", "description": "Rose syrup with milk", "price": 3, "category": "Drinks", "available": true }
-        ]
+            { "id": "2412833-m1", "name": "Big Mac", "description": "Two beef patties, special sauce, lettuce, cheese, pickles and onions on a sesame bun", "price": 13.50, "category": "Burgers", "available": true, "popular": true },
+            { "id": "2412833-m2", "name": "McSpicy", "description": "Crispy spicy chicken thigh with lettuce and mayo", "price": 13.50, "category": "Burgers", "available": true, "popular": true },
+            { "id": "2412833-m3", "name": "Filet-O-Fish", "description": "Fish fillet with tartar sauce and cheese", "price": 11.50, "category": "Burgers", "available": true, "popular": false },
+            { "id": "2412833-m4", "name": "Ayam Goreng McD (2 pcs)", "description": "Two pieces of crispy fried chicken", "price": 11.50, "category": "Chicken", "available": true, "popular": true },
+            { "id": "2412833-m5", "name": "Chicken McNuggets (6 pcs)", "description": "Six golden chicken nuggets with dipping sauce", "price": 10.50, "category": "Chicken", "available": true, "popular": false },
+            { "id": "2412833-m6", "name": "Large Fries", "description": "Golden crispy fries, lightly salted", "price": 7.50, "category": "Sides", "available": true, "popular": true },
+            { "id": "2412833-m7", "name": "Oreo McFlurry", "description": "Soft serve ice cream with Oreo cookie pieces", "price": 8.50, "category": "Desserts", "available": true, "popular": false, "special": true },
+            { "id": "2412833-m8", "name": "Iced Milo", "description": "Cold chocolate malt drink", "price": 5.50, "category": "Drinks", "available": true, "popular": false },
+            { "id": "2412833-m9", "name": "Coca-Cola", "description": "Chilled carbonated drink", "price": 4.50, "category": "Drinks", "available": false, "popular": false }
+        ],
+        "dailySpecial": {
+            "itemId": "2412833-m7",
+            "endTime": "23:59"
+        }
     }
 ]
